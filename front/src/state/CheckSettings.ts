@@ -1,13 +1,10 @@
 import { atom } from 'recoil';
+import { IState } from '../interfaces';
 
-interface ICheckSettings {
-  languageStyle: 'formal' | 'informal';
-  emphasize: boolean;
-}
 export const checkSettings = atom({
   key: 'checkSettings',
   default: {
     languageStyle: 'formal',
     emphasize: false,
-  } as ICheckSettings,
+  } as IState.IAtomCheckSettings,
 });

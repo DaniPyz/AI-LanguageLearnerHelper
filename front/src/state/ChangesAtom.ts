@@ -1,11 +1,7 @@
 import { atom } from 'recoil';
-
-interface ICHange {
-  old?: string;
-  new?: string;
-}
+import { IState } from '../interfaces';
 
 export const changesAtom = atom({
   key: 'changesAtom',
-  default: [] as ICHange,
+  default: [] as IState.IAtomCHanges,
 });

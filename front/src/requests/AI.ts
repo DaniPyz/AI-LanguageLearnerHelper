@@ -1,9 +1,6 @@
 import { Axios } from '../axios';
+import { IMessages } from '../interfaces';
 
-interface ISendMessage {
-  message: string;
-  style: 'formal' | 'informal';
-}
-export const sendMessage =  (props: ISendMessage) => {
-  return  Axios.post('/sendMessage', { ...props }).then((res) => res.data);
+export const sendMessage = (props: IMessages.ISendMessage) => {
+  return Axios.post('/sendMessage', { ...props }).then((res) => res.data);
 };

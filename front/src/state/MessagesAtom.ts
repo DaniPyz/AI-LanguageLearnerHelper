@@ -1,10 +1,7 @@
 import { atom } from 'recoil';
-interface IMessage {
-  role: 'user' | 'assistant';
-  content: string;
-}
+import { IState } from '../interfaces';
 
 export const messagesAtom = atom({
   key: 'messagesAtom',
-  default: [] as IMessage[],
+  default: [] as IState.IAtomMessage[],
 });
