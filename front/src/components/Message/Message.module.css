@@ -1,0 +1,15 @@
+.MessageMine, .MessageAi{
+  font-size: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+  & p{
+    font-weight: bold;
+    margin: 0;
+    margin: 8px 10px 8px 0;
+
+  }
+}
+.MessageMine{
+justify-content: end;
+}

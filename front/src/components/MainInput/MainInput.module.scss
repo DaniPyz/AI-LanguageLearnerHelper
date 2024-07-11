@@ -1,0 +1,22 @@
+.MainInput {
+  background-color: rgb(235, 235, 235);
+  margin: 15pt;
+  padding: 15pt;
+  border-radius: 15px;
+  width: 72%;
+  .MessagesWrapper {
+    height: 90%;
+    position: relative;
+    margin-bottom: 20px;
+    &::after {
+      margin-top: 20px;
+      content: '';
+      position: absolute;
+      bottom: 0;
+
+      width: 100%;
+      border-top: 1px solid black;
+    }
+  }
+
+}

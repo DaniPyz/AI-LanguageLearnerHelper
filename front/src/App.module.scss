@@ -1,0 +1,15 @@
+.App {
+  font-family: 'Inter';
+  background-color: #cfcfcf;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+  & .RighSide {
+    
+    margin: 15pt;
+    padding: 15pt;
+  }
+}

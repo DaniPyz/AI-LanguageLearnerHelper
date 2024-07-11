@@ -1,0 +1,24 @@
+.ButtonAct,
+.ButtonInac {
+  border: 2px solid transparent;
+  display: inline-block;
+  padding: 10pt 32pt;
+  text-align: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 12pt;
+  transition: 0.5s ease;
+
+  &:hover {
+
+    border: 2px solid #00023380;
+  }
+}
+.ButtonAct {
+  background-color: #ccceff;
+  color: #000233;
+}
+.ButtonInac {
+  background-color: #f2f3ff;
+  color: rgba(0, 2, 51, 0.2);
+}

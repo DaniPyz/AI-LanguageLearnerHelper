@@ -1,0 +1,16 @@
+.CheckParams{
+  & h1 {
+    font-size: 20pt;
+    margin: 15pt 0 10pt;
+  }
+  & .wrapper{
+    background-color: rgb(235, 235, 235);
+    width: auto;
+   padding: 15px;
+    border-radius: 15px;
+    & p{
+      margin: 0 0 5pt;
+      font-size: 15pt;
+    }
+  }
+}

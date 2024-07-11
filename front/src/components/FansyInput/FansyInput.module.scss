@@ -1,0 +1,17 @@
+.FansyInput {
+  & input {
+    border: 1px solid #838383;
+    width: -webkit-fill-available;
+    height: 35px;
+    border-radius: 5px;
+    padding: 0 10px;
+    &:focus{
+      outline: none;
+      
+    }
+    &::placeholder{
+      
+    }
+    
+  }
+}
